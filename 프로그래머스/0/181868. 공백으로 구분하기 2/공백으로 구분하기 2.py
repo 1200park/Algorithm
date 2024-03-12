@@ -1,4 +1,3 @@
-import re
 def solution(my_string):
-    answer = re.split(r'\s+', my_string.strip())
+    answer = my_string.strip().split()
     return answer
